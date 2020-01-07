@@ -157,6 +157,17 @@ header .logo-box{
   font-size: 250%!important;
   font-weight: bold;
 }
+@media screen and (max-width: 500px)
+and (min-width: 0){
+  .n-col{
+    width: 95%!important;
+  }
+  .n-img-box{
+    width: 98%!important;
+    height: 250px;
+    background: #000;
+  }
+}
 .n-col{
   background: rgba(0,0,0,0.3);
   float: left;
